@@ -1,0 +1,610 @@
+Microsoft Windows [Version 10.0.17763.737]
+(c) 2018 Microsoft Corporation. Tüm haklarý saklýdýr.
+
+C:\Users\Acer>dotnet --info7
+Unknown option: --info7
+.NET Komut Satýrý Araçlarý (2.1.802)
+Kullaným: dotnet [runtime-options] [path-to-application] [arguments]
+
+Bir .NET Core uygulamasýný yürütür.
+
+runtime-options:
+  --additionalprobingpath <path>     Yoklama ilkesini ve yoklanacak bütünleþtirilmiþ kodlarý içeren yol.
+  --additional-deps <path>           Ek deps.json dosyasýnýn yolu.
+  --fx-version <version>             Uygulamayý çalýþtýrmak için kullanýlacak olan yüklü Paylaþýlan Çerçevenin sürümü
+  --roll-forward-on-no-candidate-fx  Aday paylaþýlan çerçevelerin hiçbirinde ileri sarma etkin deðil.
+
+path-to-application:
+  Çalýþtýrýlacak uygulama .dll dosyasýnýn yolu.
+
+Kullaným: dotnet [sdk-options] [command] [command-options] [arguments]
+
+Bir .NET Core SDK komutunu yürütür.
+
+sdk-options:
+  -d|--diagnostics  Tanýlama çýkýþýný etkinleþtirir.
+  -h|--help         Komut satýrý yardýmýný gösterir.
+  --info            .NET Core bilgilerini gösterir.
+  --list-runtimes   Yüklü çalýþma zamanlarýný görüntüleyin.
+  --list-sdks       Yüklü SDK'larý görüntüleyin.
+  --version         Kullanýlmakta olan .NET Core SDK sürümünü gösterir.
+
+SDK komutlarý:
+  add               Bir .NET projesine paket ya da baþvuru ekler.
+  build             Bir .NET projesi derler.
+  build-server      Bir derleme tarafýndan baþlatýlan sunucularla etkileþimde bulunun.
+  clean             Bir .NET projesinin derleme çýktýlarýný temizler.
+  help              Komut satýrý yardýmýný gösterir.
+  list              Bir .NET projesinin proje baþvurularýný listeler.
+  migrate           Bir project.json projesini MSBuild projesine geçirir.
+  msbuild           Microsoft Build Engine (MSBuild) komutlarýný çalýþtýrýr.
+  new               Yeni bir .NET projesi veya dosyasý oluþturur.
+  nuget             Ek NuGet komutlarý saðlar.
+  pack              Bir NuGet paketi oluþturur.
+  publish           Bir .NET projesini daðýtým için yayýmlar.
+  remove            Bir .NET projesinden paket ya da baþvuruyu kaldýrýr.
+  restore           Bir .NET projesinde belirtilen baðýmlýlýklarý geri yükler.
+  run               Bir .NET projesi çýktýsý derler ve çalýþtýrýr.
+  sln               Visual Studio çözüm dosyalarýný deðiþtirir.
+  store             Belirtilen bütünleþtirilmiþ kodlarý çalýþma zamaný paket deposunda depolar.
+  test              .NET projesinde belirtilen test çalýþtýrýcýsýný kullanarak birim testleri çalýþtýrýr.
+  tool              .NET deneyimini geniþleten araçlarý yükler veya yönetir.
+  vstest            Microsoft Test Engine (VSTest) komutlarýný çalýþtýrýr.
+
+Paket grubu oluþturulmuþ araçlardaki ek komutlar:
+  dev-certs         Geliþtirme sertifikalarý oluþturun ve yönetin.
+  ef                Entity Framework Core komut satýrý araçlarý.
+  fsi               F# Interactive'i baþlatýn / F# betiklerini yürütün.
+  sql-cache         SQL Server önbellek komut satýrý araçlarý.
+  user-secrets      Kullanýcý gizli dizilerini yönetin.
+  watch             Dosyalar deðiþtiðinde bir komut çalýþtýran bir dosya izleyici baþlatýn.
+
+Bir komut hakkýnda daha fazla bilgi için 'dotnet [komut] --help' komutunu çalýþtýrýn.
+
+C:\Users\Acer>docker-working
+'docker-working' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Acer>docker -working
+unknown shorthand flag: 'w' in -working
+See 'docker --help'.
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Options:
+      --config string      Location of client config files (default
+                           "C:\\Users\\Acer\\.docker")
+  -c, --context string     Name of the context to use to connect to the
+                           daemon (overrides DOCKER_HOST env var and
+                           default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket(s) to connect to
+  -l, --log-level string   Set the logging level
+                           ("debug"|"info"|"warn"|"error"|"fatal")
+                           (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default
+                           "C:\\Users\\Acer\\.docker\\ca.pem")
+      --tlscert string     Path to TLS certificate file (default
+                           "C:\\Users\\Acer\\.docker\\cert.pem")
+      --tlskey string      Path to TLS key file (default
+                           "C:\\Users\\Acer\\.docker\\key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Management Commands:
+  builder     Manage builds
+  config      Manage Docker configs
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  network     Manage networks
+  node        Manage Swarm nodes
+  plugin      Manage plugins
+  secret      Manage Docker secrets
+  service     Manage services
+  stack       Manage Docker stacks
+  swarm       Manage Swarm
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  build       Build an image from a Dockerfile
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  exec        Run a command in a running container
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  images      List images
+  import      Import the contents from a tarball to create a filesystem image
+  info        Display system-wide information
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  login       Log in to a Docker registry
+  logout      Log out from a Docker registry
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  ps          List containers
+  pull        Pull an image or a repository from a registry
+  push        Push an image or a repository to a registry
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  run         Run a command in a new container
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  search      Search the Docker Hub for images
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  version     Show the Docker version information
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker COMMAND --help' for more information on a command.
+
+
+C:\Users\Acer>dotnet new console -o app -n myapp
+"Console Application" þablonu baþarýyla oluþturuldu.
+
+Oluþturma sonrasý eylemler iþleniyor...
+app\myapp.csproj üzerinde 'dotnet restore' çalýþtýrýlýyor...
+  280,96 ms içinde C:\Users\Acer\app\myapp.csproj için geri yükleme iþlemi tamamlandý.
+
+Geri yükleme baþarýlý oldu.
+
+
+C:\Users\Acer>dotnet run
+Çalýþtýrýlacak bir proje bulunamadý. C:\Users\Acer içinde bir projenin bulunduðundan emin olun veya --project kullanarak yolu projeye geçirin.
+
+C:\Users\Acer>app dotnet rub
+'app' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Acer>app dotnet run
+'app' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Acer>dotnet run app
+Çalýþtýrýlacak bir proje bulunamadý. C:\Users\Acer içinde bir projenin bulunduðundan emin olun veya --project kullanarak yolu projeye geçirin.
+
+C:\Users\Acer>app
+'app' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Acer>cd app
+
+C:\Users\Acer\app>dotnet run
+Hello World!
+
+C:\Users\Acer\app>dotnet run
+Counter: 1
+Counter: 2
+Counter: 3
+Counter: 4
+^C
+C:\Users\Acer\app>dotnet publish -c Release
+.NET Core için Microsoft (R) Build Engine sürüm 16.2.32702+c4012a063
+Telif Hakký (C) Microsoft Corporation. Tüm haklarý saklýdýr.
+
+  60,77 ms içinde C:\Users\Acer\app\myapp.csproj için geri yükleme iþlemi tamamlandý.
+  myapp -> C:\Users\Acer\app\bin\Release\netcoreapp2.1\myapp.dll
+  myapp -> C:\Users\Acer\app\bin\Release\netcoreapp2.1\publish\
+
+C:\Users\Acer\app>cd..
+
+C:\Users\Acer>docker build -t myimage -f Dockerfile .
+error checking context: 'can't stat '\\?\C:\Users\Acer\AppData\Local\ElevatedDiagnostics''.
+
+C:\Users\Acer>cd app
+
+C:\Users\Acer\app>docker build -t myimage -f Dockerfile .
+unable to prepare context: unable to evaluate symlinks in Dockerfile path: CreateFile C:\Users\Acer\app\Dockerfile: Sistem belirtilen dosyayý bulamýyor.
+
+C:\Users\Acer\app>cd..
+
+C:\Users\Acer>.docker build
+'.docker' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Acer>cd app
+
+C:\Users\Acer\app>docker build -t myimage -f Dockerfile .
+Sending build context to Docker daemon  318.5kB
+Step 1/1 : FROM mcr.microsoft.com/dotnet/core/runtime:2.1
+2.1: Pulling from dotnet/core/runtime
+cf10787548c4: Already exists
+cc6f7179097f: Pull complete
+28cc98e153c3: Pull complete
+0fe1d44b4388: Pull complete
+4c97140ab40b: Pull complete
+28e30d1ea465: Pull complete
+Digest: sha256:9aee6594769a703ebfc3294752a78d40c064746f1e47bd40fc859eff3cb017c5
+Status: Downloaded newer image for mcr.microsoft.com/dotnet/core/runtime:2.1
+ ---> 8a10f18f8f8b
+Successfully built 8a10f18f8f8b
+Successfully tagged myimage:latest
+
+C:\Users\Acer\app>docker images
+REPOSITORY                              TAG                   IMAGE ID            CREATED             SIZE
+hellodocker                             dev                   302e8825b6e8        10 hours ago        395MB
+myimage                                 latest                8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/runtime   2.1                   8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/aspnet    2.1-nanoserver-1809   c5f3ff3c07da        13 days ago         395MB
+
+C:\Users\Acer\app>docker build -t myimage -f Dockerfile .
+Sending build context to Docker daemon  318.5kB
+Step 1/3 : FROM mcr.microsoft.com/dotnet/core/runtime:2.1
+ ---> 8a10f18f8f8b
+Step 2/3 : COPY app/bin/Release/netcoreapp2.1/publish/ app/
+COPY failed: CreateFile \\?\C:\ProgramData\Docker\tmp\docker-builder090571725\app\bin\Release\netcoreapp2.1\publish: Sistem belirtilen yolu bulamýyor.
+
+C:\Users\Acer\app>docker build -t myimage -f Dockerfile .
+Sending build context to Docker daemon  318.5kB
+Step 1/3 : FROM mcr.microsoft.com/dotnet/core/runtime:2.1
+ ---> 8a10f18f8f8b
+Step 2/3 : COPY app/bin/Release/netcoreapp2.1/publish/ app/
+COPY failed: CreateFile \\?\C:\ProgramData\Docker\tmp\docker-builder475937480\app\bin\Release\netcoreapp2.1\publish: Sistem belirtilen yolu bulamýyor.
+
+C:\Users\Acer\app>cd..
+
+C:\Users\Acer>docker build -t myimage -f Dockerfile .
+unable to prepare context: unable to evaluate symlinks in Dockerfile path: CreateFile C:\Users\Acer\Dockerfile: Sistem belirtilen dosyayý bulamýyor.
+
+C:\Users\Acer>cd app
+
+C:\Users\Acer\app>docker images
+REPOSITORY                              TAG                   IMAGE ID            CREATED             SIZE
+hellodocker                             dev                   302e8825b6e8        10 hours ago        395MB
+myimage                                 latest                8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/runtime   2.1                   8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/aspnet    2.1-nanoserver-1809   c5f3ff3c07da        13 days ago         395MB
+
+C:\Users\Acer\app>docker images ls
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+
+C:\Users\Acer\app>cd..
+
+C:\Users\Acer>docker images ls
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+
+C:\Users\Acer>cd app
+
+C:\Users\Acer\app>docker tun -d -p 8080:80 --name myapp mvcapp
+unknown shorthand flag: 'd' in -d
+See 'docker --help'.
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Options:
+      --config string      Location of client config files (default
+                           "C:\\Users\\Acer\\.docker")
+  -c, --context string     Name of the context to use to connect to the
+                           daemon (overrides DOCKER_HOST env var and
+                           default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket(s) to connect to
+  -l, --log-level string   Set the logging level
+                           ("debug"|"info"|"warn"|"error"|"fatal")
+                           (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default
+                           "C:\\Users\\Acer\\.docker\\ca.pem")
+      --tlscert string     Path to TLS certificate file (default
+                           "C:\\Users\\Acer\\.docker\\cert.pem")
+      --tlskey string      Path to TLS key file (default
+                           "C:\\Users\\Acer\\.docker\\key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Management Commands:
+  builder     Manage builds
+  config      Manage Docker configs
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  network     Manage networks
+  node        Manage Swarm nodes
+  plugin      Manage plugins
+  secret      Manage Docker secrets
+  service     Manage services
+  stack       Manage Docker stacks
+  swarm       Manage Swarm
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  build       Build an image from a Dockerfile
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  exec        Run a command in a running container
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  images      List images
+  import      Import the contents from a tarball to create a filesystem image
+  info        Display system-wide information
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  login       Log in to a Docker registry
+  logout      Log out from a Docker registry
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  ps          List containers
+  pull        Pull an image or a repository from a registry
+  push        Push an image or a repository to a registry
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  run         Run a command in a new container
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  search      Search the Docker Hub for images
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  version     Show the Docker version information
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker COMMAND --help' for more information on a command.
+
+
+C:\Users\Acer\app>docker container
+
+Usage:  docker container COMMAND
+
+Manage containers
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  exec        Run a command in a running container
+  export      Export a container's filesystem as a tar archive
+  inspect     Display detailed information on one or more containers
+  kill        Kill one or more running containers
+  logs        Fetch the logs of a container
+  ls          List containers
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  prune       Remove all stopped containers
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  run         Run a command in a new container
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker container COMMAND --help' for more information on a command.
+
+C:\Users\Acer\app>docker container run
+"docker container run" requires at least 1 argument.
+See 'docker container run --help'.
+
+Usage:  docker container run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Run a command in a new container
+
+C:\Users\Acer\app>docker container ls
+CONTAINER ID        IMAGE               COMMAND                    CREATED             STATUS              PORTS                                           NAMES
+cbd55c71b986        hellodocker:dev     "C:\\remote_debugger\\…"   10 hours ago        Up 10 hours         0.0.0.0:59347->80/tcp, 0.0.0.0:44364->443/tcp   focused_feynman
+
+C:\Users\Acer\app>cd..
+
+C:\Users\Acer>docker run -d -p 8080:80 --name app myapp
+Unable to find image 'myapp:latest' locally
+docker: Error response from daemon: pull access denied for myapp, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+
+C:\Users\Acer>docker images
+REPOSITORY                              TAG                   IMAGE ID            CREATED             SIZE
+hellodocker                             dev                   302e8825b6e8        10 hours ago        395MB
+mcr.microsoft.com/dotnet/core/runtime   2.1                   8a10f18f8f8b        13 days ago         320MB
+myimage                                 latest                8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/aspnet    2.1-nanoserver-1809   c5f3ff3c07da        13 days ago         395MB
+
+C:\Users\Acer>docker run --rm -p 8787:8787 rocker/verse
+Unable to find image 'rocker/verse:latest' locally
+latest: Pulling from rocker/verse
+docker: image operating system "linux" cannot be used on this platform.
+See 'docker run --help'.
+
+C:\Users\Acer>docker tag myimage:latest seymadurak/myimage:0.1
+
+C:\Users\Acer>docker tag myimage:0.1 seymadurak/myimage:0.1
+Error response from daemon: No such image: myimage:0.1
+
+C:\Users\Acer>docker tag myimage:v1 seymadurak/myimage:v1
+Error response from daemon: No such image: myimage:v1
+
+C:\Users\Acer>docker rmi myimage:latest
+Untagged: myimage:latest
+
+C:\Users\Acer>docker rmþ myimage:0.1
+docker: 'rmþ' is not a docker command.
+See 'docker --help'
+
+C:\Users\Acer>docker rmi myimage:0.1
+Error: No such image: myimage:0.1
+
+C:\Users\Acer>docker image
+
+Usage:  docker image COMMAND
+
+Manage images
+
+Commands:
+  build       Build an image from a Dockerfile
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Display detailed information on one or more images
+  load        Load an image from a tar archive or STDIN
+  ls          List images
+  prune       Remove unused images
+  pull        Pull an image or a repository from a registry
+  push        Push an image or a repository to a registry
+  rm          Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+
+Run 'docker image COMMAND --help' for more information on a command.
+
+C:\Users\Acer>docker images
+REPOSITORY                              TAG                   IMAGE ID            CREATED             SIZE
+hellodocker                             dev                   302e8825b6e8        10 hours ago        395MB
+seymadurak/myimage                      0.1                   8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/runtime   2.1                   8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/aspnet    2.1-nanoserver-1809   c5f3ff3c07da        13 days ago         395MB
+
+C:\Users\Acer>docker login
+Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
+Username: seymadurak
+Password:
+Login Succeeded
+
+C:\Users\Acer>docker push seymadurak/myimages:latest
+The push refers to repository [docker.io/seymadurak/myimages]
+An image does not exist locally with the tag: seymadurak/myimages
+
+C:\Users\Acer>docker push seymadurak/myimages:0.1
+The push refers to repository [docker.io/seymadurak/myimages]
+An image does not exist locally with the tag: seymadurak/myimages
+
+C:\Users\Acer>docker push docker.io/seymadurak/myimages:0.1
+The push refers to repository [docker.io/seymadurak/myimages]
+An image does not exist locally with the tag: seymadurak/myimages
+
+C:\Users\Acer>docker images
+REPOSITORY                              TAG                   IMAGE ID            CREATED             SIZE
+hellodocker                             dev                   302e8825b6e8        10 hours ago        395MB
+seymadurak/myimage                      0.1                   8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/runtime   2.1                   8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/aspnet    2.1-nanoserver-1809   c5f3ff3c07da        13 days ago         395MB
+
+C:\Users\Acer>docker push mcr.microsoft.com/dotnet/core/runtime:2.1
+The push refers to repository [mcr.microsoft.com/dotnet/core/runtime]
+2f818c181874: Layer already exists
+4a1f4e623163: Layer already exists
+afa540518db0: Layer already exists
+b24bcdd9d33e: Layer already exists
+e9454706dd2a: Layer already exists
+0cb688184c57: Skipped foreign layer
+error parsing HTTP 403 response body: invalid character '<' looking for beginning of value: "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n"
+
+C:\Users\Acer>docker tag myimage:v1 seymadurak/myimage:v1
+Error response from daemon: No such image: myimage:v1
+
+C:\Users\Acer>docker images
+REPOSITORY                              TAG                   IMAGE ID            CREATED             SIZE
+hellodocker                             dev                   302e8825b6e8        11 hours ago        395MB
+seymadurak/myimage                      0.1                   8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/runtime   2.1                   8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/aspnet    2.1-nanoserver-1809   c5f3ff3c07da        13 days ago         395MB
+
+C:\Users\Acer>docker rmi myimage:v1
+Error: No such image: myimage:v1
+
+C:\Users\Acer>docker rmi myimage:0.1
+Error: No such image: myimage:0.1
+
+C:\Users\Acer>docker rmi myimage:latest
+Error: No such image: myimage:latest
+
+C:\Users\Acer>docker image
+
+Usage:  docker image COMMAND
+
+Manage images
+
+Commands:
+  build       Build an image from a Dockerfile
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Display detailed information on one or more images
+  load        Load an image from a tar archive or STDIN
+  ls          List images
+  prune       Remove unused images
+  pull        Pull an image or a repository from a registry
+  push        Push an image or a repository to a registry
+  rm          Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+
+Run 'docker image COMMAND --help' for more information on a command.
+
+C:\Users\Acer>docker images
+REPOSITORY                              TAG                   IMAGE ID            CREATED             SIZE
+hellodocker                             dev                   302e8825b6e8        11 hours ago        395MB
+seymadurak/myimage                      0.1                   8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/runtime   2.1                   8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/aspnet    2.1-nanoserver-1809   c5f3ff3c07da        13 days ago         395MB
+
+C:\Users\Acer>docker login
+Authenticating with existing credentials...
+Login Succeeded
+
+C:\Users\Acer>docker push seymadurak/myimage:0.1
+The push refers to repository [docker.io/seymadurak/myimage]
+2f818c181874: Pushed
+4a1f4e623163: Pushed
+afa540518db0: Pushed
+b24bcdd9d33e: Pushed
+e9454706dd2a: Pushed
+0cb688184c57: Skipped foreign layer
+0.1: digest: sha256:2ba05a851c2b51cdf3ab4915aadd31d3c98d0c01ec1cddbbe165ed6dbf319d3a size: 1673
+
+C:\Users\Acer>docker rmi seymadurak/myimage:0.1
+Untagged: seymadurak/myimage:0.1
+Untagged: seymadurak/myimage@sha256:2ba05a851c2b51cdf3ab4915aadd31d3c98d0c01ec1cddbbe165ed6dbf319d3a
+
+C:\Users\Acer>docker images
+REPOSITORY                              TAG                   IMAGE ID            CREATED             SIZE
+hellodocker                             dev                   302e8825b6e8        11 hours ago        395MB
+mcr.microsoft.com/dotnet/core/runtime   2.1                   8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/aspnet    2.1-nanoserver-1809   c5f3ff3c07da        13 days ago         395MB
+
+C:\Users\Acer>docker pull seymadurak/myimage:0.1
+0.1: Pulling from seymadurak/myimage
+Digest: sha256:2ba05a851c2b51cdf3ab4915aadd31d3c98d0c01ec1cddbbe165ed6dbf319d3a
+Status: Downloaded newer image for seymadurak/myimage:0.1
+docker.io/seymadurak/myimage:0.1
+
+C:\Users\Acer>docker images
+REPOSITORY                              TAG                   IMAGE ID            CREATED             SIZE
+hellodocker                             dev                   302e8825b6e8        11 hours ago        395MB
+seymadurak/myimage                      0.1                   8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/runtime   2.1                   8a10f18f8f8b        13 days ago         320MB
+mcr.microsoft.com/dotnet/core/aspnet    2.1-nanoserver-1809   c5f3ff3c07da        13 days ago         395MB
+
+C:\Users\Acer>

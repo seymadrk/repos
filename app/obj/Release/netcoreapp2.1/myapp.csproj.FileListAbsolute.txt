@@ -1,0 +1,11 @@
+C:\Users\Acer\app\bin\Release\netcoreapp2.1\myapp.deps.json
+C:\Users\Acer\app\bin\Release\netcoreapp2.1\myapp.runtimeconfig.json
+C:\Users\Acer\app\bin\Release\netcoreapp2.1\myapp.runtimeconfig.dev.json
+C:\Users\Acer\app\bin\Release\netcoreapp2.1\myapp.dll
+C:\Users\Acer\app\bin\Release\netcoreapp2.1\myapp.pdb
+C:\Users\Acer\app\obj\Release\netcoreapp2.1\myapp.csprojAssemblyReference.cache
+C:\Users\Acer\app\obj\Release\netcoreapp2.1\myapp.csproj.CoreCompileInputs.cache
+C:\Users\Acer\app\obj\Release\netcoreapp2.1\myapp.AssemblyInfoInputs.cache
+C:\Users\Acer\app\obj\Release\netcoreapp2.1\myapp.AssemblyInfo.cs
+C:\Users\Acer\app\obj\Release\netcoreapp2.1\myapp.dll
+C:\Users\Acer\app\obj\Release\netcoreapp2.1\myapp.pdb
